@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>商品ページへ移動中...</title>
+
+  <!-- GA4タグ -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M4M16RJXCX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-M4M16RJXCX');
+  </script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+  </style>
+</head>
+<body>
+  <p>DLsite「結衣ちゃんはキモいおじさんの言いなりです。」販売ページへ向かいます<br>
+     自動で移動しない場合は <a id="link" href="https://www.dlsite.com/aix/work/=/product_id/RJ01402851.html?utm_source=pixiv_D&utm_medium=text&utm_campaign=m01-D">こちらをクリック</a> してください。</p>
+
+  <script>
+    // リダイレクト先URL（UTMなしでも可）
+    const redirectURL = "https://www.dlsite.com/aix/work/=/product_id/RJ01402851.html?utm_source=pixiv_D&utm_medium=text&utm_campaign=m01-D";
+
+    // 1秒後にリダイレクト
+    setTimeout(() => {
+      window.location.href = redirectURL;
+    }, 1000);
+
+    // 手動クリック用リンクにURLをセット
+    document.getElementById("link").href = redirectURL;
+  </script>
+</body>
+</html>
